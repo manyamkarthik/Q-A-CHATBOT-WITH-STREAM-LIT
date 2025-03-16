@@ -1,9 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-import os
-
-
-load_dotenv()
 
 # IMPORTANT:  Replace with your actual Gemini API key
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]

@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # IMPORTANT:  Replace with your actual Gemini API key
-GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
+GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 
 # Set Streamlit Theme to Dark Mode (or a custom theme)
